@@ -1,0 +1,39 @@
+What is Emmet?
+
+emmet is a toolkit for web developers which allows you to type shortcuts and it expands to a boilerplate code for writing html and css
+
+
+
+Difference between a Library and Framework?
+
+A library is a set of prewritten codes which can be imported into our project, and we use them to perform set of tasks or functions, and they are reusable.
+whereas, a Frameworkis a set of prewritten codes that define the structure of a website or application.
+in library, the developer calls the functions whenever required, and in framework, the developer has to mention the code wherever required by the framework , and its calls its functions.
+
+
+
+What is CDN? Why do we use it?
+
+CDN is a group of geographically distributed servers.To minimize the distance between the websites/users/other resources we want, we use cdn which will cache a copy of the content we want on each of their servers.
+
+
+
+Why is React known as React?
+react is basically a library created for users to react to the states and data in our application and helping to create a more efficient ui. Hence the name.
+
+
+
+What is crossorigin in script tag?
+A mechanism for integrating applications
+
+
+
+What is diference between React and ReactDOM
+core react is react and reactdom is for interaction with browsers and for dom manipulation
+
+What is difference between react.development.js and react.production.js files via CDN?
+development.js not suitable for production because production is for building large scale applications.
+
+
+What is async and defer? 
+
