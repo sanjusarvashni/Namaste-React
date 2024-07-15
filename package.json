@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "namaste react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjusarvashni/Namaste-React.git"
+  },
+  "keywords": [
+    "react",
+    "app"
+  ],
+  "author": "sanju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjusarvashni/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/sanjusarvashni/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

@@ -1,0 +1,66 @@
+What is `NPM`?
+
+npm is a package manager that keeps a track of all the packages we install in our project and manages them. npm init to initialize the npm and it will create a package.json file that will contain the configuration of the package manager and its dependencies.
+
+
+- What is `Parcel/Webpack`? Why do we need it?
+parcel/webpack are bundlers. if we want to make our code production ready, then we need to minify the code, bundle them, optimize, compress so that they are ready for production. these bundlers does the task of minifying, bundlling.
+
+What is `.parcel-cache?
+.parcel-cache is a folder that contains the cache of code. when the build is done for the time, this folder will be created and it will contain the cache of our code. this helps in reducing the build time as we modify our code. and this folder contains binary files. thay actually kepp a track of our code and makes the build time faster.
+
+What is `npx` ?
+npx is for executing the packages/dependencies we install for our project whereas npm is for installing the packages and keeping a track of their configuration.
+
+What is difference between `dependencies` vs `devDependencies?
+dependencies are for production and dev dependencies are for development purpose.
+
+What is Tree Shaking?
+tree shaking is a feature of parcel where the unwanted or unused code is removed when the code goes for production.
+
+ What is Hot Module Replacement?
+ hot module replacement is a feature of parcel bundler where the changes in code reflect immediately in our build server .This is done through a file watching algorithm that was coded in c++
+
+ List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+minification of code
+seperate build for dev and production
+hot module replacement
+image optimization
+transpilation -> done by babel
+compression
+tree shaking
+creates a local server
+creates dev build
+
+
+ What is `.gitignore`? What should we add and not add into it?
+gitignore is a file and git does not push whatever files or folders we dont want in github. we can add any folders that can be regenerated (node_modules, dist, .parcel-cache). and we should not add package.json and package-lock.json files to it because we require these files for regeneration of those folders we added to .gitignore and also the contain the configuration of our packages.
+
+What is the difference between `package.json` and `package-lock.json
+package.json has the generic version of the packages and package-lock.json has the exact or accurate version of the packages.
+
+- Why should I not modify `package-lock.json`?
+we should not modify because the contain the exact version
+
+What is `node_modules` ? Is it a good idea to push that on git?
+it is like a database for npm where all the dependencies and their dependencies are also present. not a good idea to push on git becsuse it is heavy 
+
+What is the `dist` folder?
+gets created when we execute production build. contains the minifies code 
+
+
+- What is `browserlists`
+we can add the no of browser versions that our code can be compatible with
+
+Read about: ^ - caret and ~ - tilda
+caret will change to minor version and tilde will change when a major version is updated. it is recommended to use caret
+
+Script types in html (MDN Docs)
+module -> Browser has javascript engine so it can understand the javascript code. But when we write jsx code , browser cant understand so we need to include the type of script as module.
+
+
+
+
+
+
