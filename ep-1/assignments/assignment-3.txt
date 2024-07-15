@@ -1,0 +1,21 @@
+What is jsx?
+jsx is javascript xml this is like a markup language used to create elements in react. makes our code readable and easy to understansd unlike react.createElement 
+
+superpowers of jsx
+jsx has syntax like html
+we can add javascript to jsx within curly braces
+we can also add inline css to jsx element by defining css as an object and passing it to the element.
+jsx is basically a reactelement and it converts to html once rendered to dom.
+jsx transipiled by babel which is a dependency of parcel and it converts it to a react element.
+
+role of type attribute in script tage
+helps to identify the type of  content inside the script tag, by default it is /text/javascript
+
+{TitleComponent} vs {<TitleComponent/>} vs
+{<TitleComponent></TitleComponent>} in JSX
+
+all three are same . these are all the ways we can render a TitleComponent
+
+
+
+
